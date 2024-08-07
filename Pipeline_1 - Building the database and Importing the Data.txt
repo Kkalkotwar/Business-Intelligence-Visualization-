@@ -1,0 +1,29 @@
+##--------------------------HOTEL DATA ANALYSIS------------------------------##
+
+PIPELINE - 1: Building the Database and Importing the data
+
+This is one of the important step before proceeding further for analysing the data.
+
+
+
+
+A. DATABASE CREATION:
+
+Database Management software Used:  MySQL Workbench 8.0 CE
+
+A new database by name 'Hotel' was created using the SQL query 
+(CREATE DATABASE Hotel) , and for selecting the database (USE Hotel) query was runned.
+
+
+
+
+
+B. EXPLORING AND IMPORTING THE DATA IN DATABASE:
+
+About Data:
+
+- The Data contains the five seperate sheets, in which first three were the years for which the hotel data was taken and the remaining two sheets contains the abrevation full form and remaining costing details.
+
+Following were the challanges which I faced while importing the data into the database:
+
+While checking the data format, I found the data was in 'xlsx' format and when I was trying to import the data, 'xlsx' option was not available, So I manually saved all the five sheets in 'CSV' format and then imported the sheets into the Hotel database. 
